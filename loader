@@ -1,0 +1,9 @@
+if game.PlaceId == 142823291 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/mm2-foggy/main/script"))()
+elseif game.PlaceId == 537413528 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/builtaboataf/main/bab"))()
+elseif game.PlaceId == 286090429 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/arsenal/refs/heads/main/script"))()
+else
+	game.StarterGui:SetCore("SendNotification", {Title = "WARNING",Duration = 10,Text = "game not supported"})
+end
