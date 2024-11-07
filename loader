@@ -6,6 +6,8 @@ elseif game.PlaceId == 286090429 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/arsenal/refs/heads/main/script"))()
 elseif game.PlaceId == 1962086868 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/TOH-Foggy/refs/heads/main/script"))()
+elseif game.PlaceId == 5253186791 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/TOH-Foggy/refs/heads/main/script"))()
 else
 	game.StarterGui:SetCore("SendNotification", {Title = "WARNING",Duration = 10,Text = "game not supported"})
 end
