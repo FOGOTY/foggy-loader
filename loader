@@ -10,6 +10,8 @@ elseif game.PlaceId == 5253186791 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/TOH-Foggy/refs/heads/main/script"))()
 elseif game.PlaceId == 3101667897 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/foggy-speedlegend/refs/heads/main/script"))()
+elseif game.PlaceId == 10253248401 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/foggy-elementalpowtoc/refs/heads/main/script"))()
 else
 	game.StarterGui:SetCore("SendNotification", {Title = "WARNING",Duration = 10,Text = "game not supported"})
 end
