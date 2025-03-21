@@ -20,6 +20,8 @@ elseif game.PlaceId == 2551991523 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/foggy-brokenbones4/refs/heads/main/script"))()
 elseif game.PlaceId == 2753915549 or 4442272183 or 7449423635 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/foggy-bloxfruit/refs/heads/main/script"))()
+elseif game.PlaceId == 3772394625 then
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/FOGOTY/blade-ball/main/BBscript'))()
 else
 	game.StarterGui:SetCore("SendNotification", {Title = "WARNING",Duration = 10,Text = "game not supported"})
 end
