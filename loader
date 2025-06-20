@@ -26,6 +26,8 @@ elseif game.PlaceId == 17625359962 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/rivals/refs/heads/main/script"))()
 elseif game.PlaceId == 116495829188952 or 70876832253163 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/rivals/refs/heads/main/script"))()
+elseif game.PlaceId == 6403373529 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/slap-god/main/script"))()
 else
 	game.StarterGui:SetCore("SendNotification", {Title = "WARNING",Duration = 10,Text = "game not supported"})
 end
