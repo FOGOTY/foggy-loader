@@ -1,35 +1,51 @@
-if game.PlaceId == 142823291 then
+local placeId = game.PlaceId
+
+if placeId == 142823291 then -- MM2
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/mm2-foggy/main/script"))()
-elseif game.PlaceId == 537413528 then
+
+elseif placeId == 537413528 then -- Build A Boat
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/builtaboataf/main/bab"))()
-elseif game.PlaceId == 286090429 then
+
+elseif placeId == 286090429 then -- Arsenal
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/arsenal/refs/heads/main/script"))()
-elseif game.PlaceId == 1962086868 then
+
+elseif placeId == 1962086868 or placeId == 5253186791 then -- Tower of Hell
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/TOH-Foggy/refs/heads/main/script"))()
-elseif game.PlaceId == 5253186791 then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/TOH-Foggy/refs/heads/main/script"))()
-elseif game.PlaceId == 3101667897 then
+
+elseif placeId == 3101667897 then -- Speed Legends
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/foggy-speedlegend/refs/heads/main/script"))()
-elseif game.PlaceId == 10253248401 then
+
+elseif placeId == 10253248401 then -- Elemental Powers TOC
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/foggy-elementalpowtoc/refs/heads/main/script"))()
-elseif game.PlaceId == 6732694052 then
+
+elseif placeId == 6732694052 then -- Fish Game
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/fisch/refs/heads/main/script"))()
-elseif game.PlaceId == 14184086618 then
+
+elseif placeId == 14184086618 then -- Obby On Bike
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/obbyonbike/refs/heads/main/script"))()
-elseif game.PlaceId == 2551991523 then
+
+elseif placeId == 2551991523 then -- Broken Bones IV
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/foggy-brokenbones4/refs/heads/main/script"))()
-elseif game.PlaceId == 2753915549 or 4442272183 or 7449423635 then
+
+elseif placeId == 2753915549 or placeId == 4442272183 or placeId == 7449423635 then -- Blox Fruits
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/foggy-bloxfruit/refs/heads/main/script"))()
-elseif game.PlaceId == 3772394625 then
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/FOGOTY/blade-ball/main/BBscript'))()
-elseif game.PlaceId == 17625359962 then
+
+elseif placeId == 3772394625 then -- Blade Ball
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/blade-ball/main/BBscript"))()
+
+elseif placeId == 17625359962 then -- Rivals (possibly beta?)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/rivals/refs/heads/main/script"))()
-elseif game.PlaceId == 116495829188952 or 70876832253163 then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/rivals/refs/heads/main/script"))()
-elseif game.PlaceId == 6403373529 then
+
+elseif placeId == 6403373529 then -- Slap Battles
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/slap-god/main/script"))()
-elseif game.PlaceId == 4924922222 then
+
+elseif placeId == 4924922222 then -- Brookhaven
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/brookhaven/refs/heads/main/script"))()
+
 else
-	game.StarterGui:SetCore("SendNotification", {Title = "WARNING",Duration = 10,Text = "game not supported"})
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "WARNING",
+		Text = "Game not supported",
+		Duration = 10
+	})
 end
