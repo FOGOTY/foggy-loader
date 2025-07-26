@@ -42,6 +42,9 @@ elseif placeId == 6403373529 then -- Slap Battles
 elseif placeId == 4924922222 then -- Brookhaven
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/brookhaven/refs/heads/main/script"))()
 
+elseif placeId == 126509999114328 then -- 99 nights
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/99nights/refs/heads/main/script"))()
+
 else
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "WARNING",
