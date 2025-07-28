@@ -45,6 +45,9 @@ elseif placeId == 4924922222 then -- Brookhaven
 elseif placeId == 126509999114328 then -- 99 nights
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/99nights/refs/heads/main/script"))()
 
+elseif placeId == 126884695634066 then -- grow a garden
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/gag/refs/heads/main/script"))()
+
 else
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "WARNING",
