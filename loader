@@ -51,6 +51,10 @@ elseif placeId == 126884695634066 then -- grow a garden
 elseif placeId == 70876832253163 then -- dead rails
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/FoggyHub-deadrails/refs/heads/main/script"))()
 
+elseif placeId == 96342491571673 or placeId == 109983668079237 then -- steal a brainrot
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/stealabrainrot/refs/heads/main/script"))()
+
+
 else
 	game.StarterGui:SetCore("SendNotification", {
 		Title = "WARNING",
