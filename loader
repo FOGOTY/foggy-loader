@@ -18,7 +18,7 @@ elseif placeId == 3101667897 then -- Speed Legends
 elseif placeId == 10253248401 then -- Elemental Powers TOC
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/foggy-elementalpowtoc/refs/heads/main/script"))()
 
-elseif placeId == 6732694052 then -- Fish Game
+elseif placeId == 6732694052 or placeId == 131716211654599 then -- Fish Game
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/fisch/refs/heads/main/script"))()
 
 elseif placeId == 14184086618 then -- Obby On Bike
