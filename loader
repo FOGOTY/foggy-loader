@@ -54,6 +54,9 @@ elseif placeId == 70876832253163 then -- dead rails
 elseif placeId == 96342491571673 or placeId == 109983668079237 then -- steal a brainrot
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/stealabrainrot/refs/heads/main/script"))()
 
+elseif placeId == 3623096087 then -- muscle legends
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/musclelegends/refs/heads/main/script"))()
+
 
 else
 	game.StarterGui:SetCore("SendNotification", {
