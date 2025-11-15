@@ -63,6 +63,9 @@ elseif placeId == 119048529960596 then -- restaurat tycoon 3
 elseif placeId == 34869880 or placeId == 127742093697776 then -- plants vs brainrots
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/FOGOTY/plants-vs-brainrots/refs/heads/main/script"))()
 
+elseif placeId == 124389216346675 then -- plants vs brainrots
+loadstring(game:HttpGet('https://raw.githubusercontent.com/FOGOTY/control-europe/refs/heads/main/script'))()
+
 
 else
 	game.StarterGui:SetCore("SendNotification", {
