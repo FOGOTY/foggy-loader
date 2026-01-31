@@ -22,6 +22,6 @@
                                                                                                                                   \/____/                  ~~                       ~~              
                                                                                                                                                                                                     
 --]]
-getgenv().SCRIPT_KEY = ""
-loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/48f27a0e0d5eeb288cd9ede8e6b9d7922d82819a72042355d8d7eedddecdd774/download"))()
+loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/1c6e9bdebb33ae453fe68a54f35ce2e25318fc281f6b32a3518b78a0aa3f2fd1/download"))()
 --now junkie loader
+
